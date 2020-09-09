@@ -1,9 +1,14 @@
 import React from 'react';
+import Header from './components/header/Header.jsx';
+import Rent from './components/rent/Rent.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 function App() {
   return (
     <div>
-      <h1>Hello World!!</h1>
+      <Header />
+      <Rent />
+      <Footer />
     </div>
   );
 }

@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import index3 from './index3.css';
+import facebook from './images/facebook.png';
+import twitter from './images/twitter.png';
+import instagram from './images/instagram.png';
 
 const Footer = () =>{
     return (
     <div>
     <p className="p-style">W5723 Lake View Chester, CA 96020</p>
     <p className="p-style">Design by <span className = "span-style">Papaya.</span></p>
-    <img src="./images/facebook.png" alt="Facebook icon" width="24px" height="24px" className="img-style" />
-    <img src="./images/twitter.png" alt="Twitter icon" width="24px" height="24px" className="img-style" />
-    <img src="./images/instagram.png" alt="Instagram icon" width="24px" height="24px" className="img-style" />
+    <img src={facebook} alt="Facebook icon" className="img-style" />
+    <img src={twitter} alt="Twitter icon" className="img-style" />
+    <img src={instagram} alt="Instagram icon" className="img-style" />
     <p className="p-style">&copy; Camp Chippewa</p>
     </div>
     );
